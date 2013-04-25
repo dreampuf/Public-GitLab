@@ -1,5 +1,8 @@
 # Public GitLab
 
+> **Important:**
+> You should notice that [a newer version of Public GitLab](https://github.com/ArthurHoaro/Public-GitLab/) is out.
+
 ## Presentation
 
 Public GitLab is a fork of the official [GitLab](https://github.com/gitlabhq/gitlabhq) software. This fork allows you to host public repositories as long as official software does NOT support it (e.g. for Open Source projects). With this fork, I'm trying to reproduce Github behavior.
