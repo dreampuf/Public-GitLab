@@ -1,0 +1,6 @@
+Project Url: #{project_path(@project)}
+Branches: #{@ref}
+Author: #{@user.username}
+Before: #{@data[:before]} After: #{@data[:after]}
+
+Compare &rarr; #{@data[:before][0..7]}...#{@data[:after][0..7]}: project_compare_path(@project, from: @data[:before], to: @data[:after])

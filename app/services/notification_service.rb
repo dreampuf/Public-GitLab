@@ -148,6 +148,10 @@ class NotificationService
     mailer.project_access_granted_email(users_project.id)
   end
 
+  def receive_commit(event)
+    mailer.receive_commit_email(event.project, event.author_id, event.data, project_watchers(event.project))
+  end
+
   protected
 
   # Get project users with WATCH notification level
